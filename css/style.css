@@ -4,7 +4,7 @@ body {
 }
 
 div {
-	border: 1px solid black;
+	border: 1px solid white; /*Mundei para branco para ajeitar a div*/
 	margin: -8px -8px;
 }
 
@@ -47,15 +47,53 @@ div {
 }
 
 .Content {
-	width: 770px;
+	width: 819px;
 	height: 550px;
 	float: left;
 	margin: 44px -8px;
 }
 
 .Content .Artigo {
-	width: 766px;
+	width: 790px;
 	height: 190px;
 	float: left;
-	margin: 0px 0px;
+	margin: 16px 16px;
+
 }
+
+/*Cinthia vai mexer aqui*/
+
+.AreaConteudo	{
+     line-height: 25px;
+     border-radius:5px;
+     overflow: hidden;
+     margin: 10px 0px;
+     
+}
+
+.conteudo    {
+    width: 102%;
+    height: 130%;
+    float: left;
+    margin: 2px 2px;
+    background-color: gray;
+    
+}
+/*EU ajeito isso depois*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
