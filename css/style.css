@@ -3,10 +3,6 @@ body {
     font-size: 62.5%;
 }
 
-div {
-	border: 1px solid black; /*Mundei para branco para ajeitar a div*/
-}
-
 .Menu a {
 	color: white;
 	text-decoration: none;
@@ -15,7 +11,7 @@ div {
 .Menu ul li {
 	list-style: none;
 	display: inline;
-	padding: 1% 5% 1.6% 5%;
+	padding: 1% 5% 1.4% 5%;
 	font-size: 2em;
 }
 
