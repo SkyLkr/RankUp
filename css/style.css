@@ -93,8 +93,72 @@ body {
 /*EU ajeito isso depois*/
 
 
+/* Classes de banlist.html */
+.ArticleBanlist {
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin: 16px 16px;
+	line-height: 25px;
+}
 
+.ArticleBanlist .conteudo h1 {
+	text-align: center;
+}
 
+.ArticleBanlist .conteudo {
+	height: 793%;
+	line-height: 100%;
+}
+
+.ArticleBanlist .conteudo table {
+	font-size: 1.4em;
+	line-height: 120%;
+}
+
+.cardlist_atitle {
+	background-color: #666666;
+	color: white;
+}
+
+.cardlist_monster {
+	background-color: #FDE68A;
+	color: black;
+}
+
+.cardlist_effect {
+	background-color: #FF8B53;
+	color: black;
+}
+
+.cardlist_ritual {
+	background-color: #9DB5CC;
+	color: black;
+}
+
+.cardlist_fusion {
+	background-color: #a086b7;
+	color: black;
+}
+
+.cardlist_synchro {
+	background-color: #CCCCCC;
+	color: black;
+}
+
+.cardlist_xyz {
+	background-color: black;
+	color: white;
+}
+
+.cardlist_spell {
+	background-color: #1D9E74;
+	color: black;
+}
+
+.cardlist_trap {
+	background-color: #BC5A84;
+}
 
 
 
