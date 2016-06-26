@@ -37,9 +37,9 @@ img {
 /* Barra Lateral */
 .Sidebar {
 	width: 20%;
-	height: 1500px;
+	min-height: 500px;
 	float: right;
-	margin: 44px 0;
+	margin: 36px 0;
 }
 
 .ListaMeta h3 {
@@ -54,15 +54,14 @@ img {
 
 .ListaMeta {
 	width: 100%;
-	height: 30%;
+	height: 18em;
 	font-size: 2em;
 	background-color: white;
 }
 
-/* Div de Conteúdo */
 .Content {
-	width: 79%;
-	height: 1000px;
+	width: 76%;
+	min-height: 500px;
 	float: left;
 	margin: 44px -8px;
 }
@@ -126,6 +125,14 @@ img {
 	color: white;
 	font-size: 10px;
 	float: right;
+}
+
+.Footer {
+	width: 101.3%;
+	height: 25%;
+	margin: -8px;
+	background-color: grey;
+	float: left;
 }
 
 
