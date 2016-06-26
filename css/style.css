@@ -1,13 +1,6 @@
-
-/*Link de cores em hexadecimal:http://erikasarti.net/html/tabela-cores/*/
 body {
 	font-family: Arial, Tahona, sans;
-    font-size: 14px
-}
-
-div {
-/*	border: 1px solid black; Mundei para branco para ajeitar a div*/
-	margin: -8px -8px;
+    font-size: 62.5%;
 }
 
 .Menu a {
@@ -18,8 +11,8 @@ div {
 .Menu ul li {
 	list-style: none;
 	display: inline;
-	padding: 15px 75px 21px 75px;
-
+	padding: 1% 5% 1.4% 5%;
+	font-size: 2em;
 }
 
 .Menu li:hover {
@@ -29,107 +22,143 @@ div {
 .Menu {
 	width: 100%;
 	height: 50px;
+	margin: -8px -8px;
 	background: black;
 	position: fixed;
 }
 
 .Sidebar {
-	width: 290px;
-	height: 550px;
+	width: 20%;
+	height: 100%;
 	float: right;
-	margin: 44px 0px;
+	margin: 44px 0;
 }
 
 .ListaMeta {
-	font-size: 20px;
-}
-
-.FonteMeta {
-	font-size: 10px;
+	font-size: 2em;
 }
 
 .Content {
-	width: 819px;
+	width: 950px;
 	height: 550px;
 	float: left;
 	margin: 44px -8px;
 }
 
-.Content .Artigo {
-	width: 790px;
+.Content .Article {
+	width: 900px;
 	height: 190px;
 	float: left;
 	margin: 16px 16px;
-
+	line-height: 25px;
 }
 
 /*Cinthia vai mexer aqui*/
-/*Tudo isso aqui é a div de conteudo para noticiA*/
-
-.AreaConteudo	{
-     line-height: 17px;
-     border-radius:5px;
-     overflow: hidden;
-     margin: 10px 0px;
-     padding: 3%;
-     background-color: #C0C0C0;
-     text-align: justify;
-}
-
-.AreaConteudo h2{
-    text-align: center;
-    font-size: 20px;
-}
-
-.AreaConteudo h1{
-    font-size: 14px;
-    margin: 10px 300px;
-
-}
-
-.conteudo    {
-    width: 102%;
-    height: 130%;
-    float: left;
-    margin: 2px 2px;
-    background-color: #C0C0C0; 
-}
-
-.LerMais:hover {
-	background-color: #B0C4DE;
-}
-
-.LerMais   {
-    width: 130px;
-    height: 35px;
-    margin: -4px 386px;
-    background-color:#C0C0C0;
-    
-}
-.LerMais p{
-text-align: center;
-margin: 2px 0px;
-}
-
-
-
-.img	{   
-    width: 200px;
-    height: 200px;
-    margin: 20px 0px;
-}
-
-.PrimeiroPost{
+.conteudo {
+	width: 100%;
+	height: 100%;
 	float: left;
-	  width: 520px;
-	 height: 220px;
-  	    margin: -225px 220px;
+	margin: 2px 2px;
+	background-color: gray;
+	border-radius:5px;
+	overflow: hidden;
+}
+
+.Post p {
+	margin: 0px 21px;
+}
+
+.Post header {
+	text-align: center;
+}
+
+.Post footer {
+	text-align: center;
+	font-size: 10px;
+}
+
+.Post {
+	font-size: 1.4em;
+}
+
+.Post .ReadMore {
+	margin: 0px 47%;
+}
+
+.Post .ReadMore button {
+	background-color: #0066FF;
+	color: white;
+	font-size: 10px;
 }
 /*EU ajeito isso depois*/
 
 
+/* Classes de banlist.html */
+.ArticleBanlist {
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin: 16px 16px;
+	line-height: 25px;
+}
 
+.ArticleBanlist .conteudo h1 {
+	text-align: center;
+}
 
+.ArticleBanlist .conteudo {
+	height: 793%;
+	line-height: 100%;
+}
+
+.ArticleBanlist .conteudo table {
+	font-size: 1.4em;
+	line-height: 120%;
+}
+
+.cardlist_atitle {
+	background-color: #666666;
+	color: white;
+}
+
+.cardlist_monster {
+	background-color: #FDE68A;
+	color: black;
+}
+
+.cardlist_effect {
+	background-color: #FF8B53;
+	color: black;
+}
+
+.cardlist_ritual {
+	background-color: #9DB5CC;
+	color: black;
+}
+
+.cardlist_fusion {
+	background-color: #a086b7;
+	color: black;
+}
+
+.cardlist_synchro {
+	background-color: #CCCCCC;
+	color: black;
+}
+
+.cardlist_xyz {
+	background-color: black;
+	color: white;
+}
+
+.cardlist_spell {
+	background-color: #1D9E74;
+	color: black;
+}
+
+.cardlist_trap {
+	background-color: #BC5A84;
+}
 
 
 
