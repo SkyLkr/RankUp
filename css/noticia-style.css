@@ -13,7 +13,6 @@ img {
 .Menu a {
 	color: white;
 	text-decoration: none;
-
 }
 
 .Menu ul li {
@@ -33,23 +32,20 @@ img {
 	margin: -8px -8px;
 	background: black;
 	position: fixed;
-	box-shadow: 3px 3px 5px #888888;
 }
 
 /* Barra Lateral */
 .Sidebar {
 	width: 20%;
-	height: 1500px;
+	min-height: 500px;
 	float: right;
-	margin: 44px 0;
-	
+	margin: 36px 0;
 }
 
 .ListaMeta h3 {
 	font-size: 10px;
 	line-height: 0px;
 	margin: -4.5% 7%;
-	
 }
 
 .ListaMeta li {
@@ -58,17 +54,14 @@ img {
 
 .ListaMeta {
 	width: 100%;
-	height: 30%;
+	height: 18em;
 	font-size: 2em;
 	background-color: white;
-	box-shadow: 3px 3px 5px #888888;
-	border-radius: 10px;
 }
 
-/* Div de Conteúdo */
 .Content {
-	width: 79%;
-	height: 1000px;
+	width: 76%;
+	min-height: 500px;
 	float: left;
 	margin: 44px -8px;
 }
@@ -134,48 +127,84 @@ img {
 	float: right;
 }
 
-/*Conteudo da Materia*/
-
-.mainimg   {
-	width:740px;
-	height:200px;
-	margin: 16px 60px;
-
+.Footer {
+	width: 101.3%;
+	height: 25%;
+	margin: -8px;
+	background-color: gray;
+	float: left;
+}
+.Content .Article {
+	width: 95%;
+	height: 18.5em;
+	float: left;
+	margin: 16px 25px;
+	line-height: 2.5em;
 }
 
-.matter {
-	width:100%;
-	height:510%;
-	margin: 16px 0px;
+
+.conteudo {
+	width: 100%;
+	height: 100%;
+	float: left;
+	margin: 2px 40px;
+	background-color: gray;
+	border-radius:5px;
+	overflow: hidden;
+	background-color: white;
 	box-shadow: 3px 3px 5px #888888;
-
 }
 
+.Post p {
+	margin: 0px 21px;
+}
 
-.matter h1  {
+.Post header {
 	text-align: center;
-   	font-style: Arial;
-	font-size: 30px;
 }
 
-.matter p   {
-	line-height: 20px;
-	text-align: justify;
-	padding: 2%;
-	font-size: 15px;
-	
+.Post footer {
+	text-align: center;
+	font-size: 10px;
 }
 
-/* Edição do texto da parte do conteudo*/
+.Post img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+}
+
+.Post {
+	font-size: 1.4em;
+}
+
+.Post .postPic {
+	width: 300px;
+	height: 300px;
+	margin: 2%;
+	border: 2px black solid;
+}
+
+.Post .ReadMore {
+	margin: 0px 47%;
+}
+
+.ReadMore button {
+	background-color: #0066FF;
+	color: white;
+	font-size: 10px;
+	float: right;
+}
+
+.Footer {
+	width: 101.3%;
+	height: 25%;
+	margin: -8px;
+	background-color: gray;
+	float: left;
+}
 
 
 
 
-
-
-
-
-
-
-
-
+/*PARTES RELACIONADAS A PAGINA DE NOTICIAS*/
