@@ -1,7 +1,7 @@
 body {
 	font-family: Arial, Tahona, sans;
     font-size: 62.5%;
-    background-color: #CCCCCC;
+    background-color: white;
 }
 
 img {
@@ -19,11 +19,11 @@ img {
 	list-style: none;
 	display: inline;
 	padding: 1% 9% 1.4% 9%;
-	font-size: 2em;
+	font-size: 20px;
 }
 
 .Menu li:hover {
-	background-color: grey;
+	background-color: #696969;
 }
 
 .Menu {
@@ -73,7 +73,7 @@ img {
 	width: 100%;
 	height: 20em;
 	font-size: 2em;
-	background-color: white;
+	background-color: 	#DCDCDC;
 	border-radius: 5px;
 	margin: 2px -16px;
 	box-shadow: 7px 7px 5px #888888;
@@ -92,7 +92,7 @@ img {
 	height: 18.5em;
 	float: left;
 	margin: 16px 16px;
-	line-height: 2.5em;
+	line-height: 2.3em;
 	box-shadow: 7px 7px 5px #888888;
 }
 
@@ -101,14 +101,19 @@ img {
 	height: 100%;
 	float: left;
 	margin: 2px 2px;
-	background-color: gray;
+	background-color: #DCDCDC;
 	border-radius:5px;
 	overflow: hidden;
-	background-color: white;
+
+}
+
+content{
+	text-align: justify;
 }
 
 .Post p {
 	margin: 0px 21px;
+	
 }
 
 .Post header {
@@ -151,45 +156,39 @@ img {
 
 /*Rodapé*/
 
+.Footer a {
+	text-decoration: none;
+	color: blue;
+}
+
 .Footer {
 	width: 101.3%;
-	height: 30%;
+	height: 10em;
 	margin: -8px;
-	background-color: grey;
+	background-color: #696969;
+	font-size: 1.4em;
+	text-align: center;
+	color: white;
+	line-height: 1em;
 	float: left;
-}
-
-.Team {
-	width: 30%;
-	height: 150px;
-	margin: 15px 500px;
-
-}
-.Team h1{
-	text-align: center;
-	font-size: 20px;
-	color: white;
-}
-
-.Team p{
-	text-align: center;
-	font-size: 18px;
-	line-height: 10px;
-	color: white;
-
 }
 
 /* Classes de estrategias.html */
 .deckSelect {
 	width: 63%;
 	height: 70%;
-	margin: 8% 20%;
+	margin: 8% 30%;
 }
 
 .deck img {
 	max-width: 93%;
 	max-height: 93%;
 	margin: 0 3%;
+}
+
+.deckSelect h1{
+	margin: 25px 30%;
+
 }
 
 .deck a {
@@ -203,6 +202,8 @@ img {
 	text-align: center;
 	font-size: 1.4em;
 	float: left;
+	margin: 0px 20px;
+
 }
 
 /* Classes de <estrategia>.html */
@@ -217,25 +218,30 @@ img {
 .Strategy_Matter {
 	width: 95%;
 	height: 100em;
-	margin: 3%;
-	border: 1px solid black;
+	margin: 3% 2px;
+	background-color: #DCDCDC;
+	box-shadow: 7px 7px 5px #888888;
+	/*border: 1px solid black;*/
+
 }
 
 .ArchetypeText {
 	width: 65%;
 	height: 95%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: 1%;
 	float: left;
 	font-size: 1.4em;
+	text-align: justify;
 }
 
 .ArchetypeInfo {
 	width: 30%;
 	height: 40em;
 	margin: 1%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	float: right;
+	background-color: #D3D3D3
 }
 
 .ArchetypeLang {
@@ -397,23 +403,23 @@ img {
 	background-color: #BC5A84;
 }
 
-/*Conteudo da Materia*/
+/*Conteudo da Materia - POST 1*/
 
 .mainimg   {
-	width:729px;
-	height:200px;
+	width:700px;
+	height:300px;
 	margin: 0px 14px;
 
 }
 
-.matter {
+.matter{
 	width:75%;
-	height:1050px;
-	margin: 16px 60px;
+	height:1700px;
+	margin: 16px 100px;
 	box-shadow: 7px 7px 5px #888888;
+	float: left;
 
 }
-
 
 .matter h1  {
 	text-align: center;
@@ -426,8 +432,82 @@ img {
 	text-align: justify;
 	padding: 2%;
 	font-size: 15px;
+}
+
+}
+/*Conteudo da Materia - POST 2*/
+.matter li{
+	font-size: 18px;
+	line-height: 20px;
+}
+
+
+
+.matter p2 {
+	line-height: 20px;
+	text-align: justify;
+	padding: 2%;
+	font-size: 15px;
+	float: left;
+}
+
+.matter footer {
+	float: left;
+}
+
+.rules li{
+	font-size: 14px;
+
+}
+
+.matter img {
+	margin: 10px 25%;
+
+}
+
+
+.MainDeck h1{
+	font-size: 15px;
+	line-height: 1px;
+
+}
+
+.main li{
+	font-size: 14px;
+	list-style: none;
+}
+
+.MainDeck {
+	width: 45%;
+	height: 26em;
+	float: left;
+	background: #D3D3D3;
+}
+
+
+.ExtraDeck h1{
+	font-size: 15px;
+	line-height: 1px;
+
+}
+
+.extra li{
+	font-size: 14px;
+	list-style: none;
 	
 }
+
+
+.ExtraDeck {
+	width: 45%;
+	height: 26em;
+	float: right;
+	background: #D3D3D3;
+}
+
+
+
+
 
 
 
