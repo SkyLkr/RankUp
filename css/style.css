@@ -33,6 +33,14 @@ img {
 	background: black;
 	position: fixed;
 }
+/*CAPA D PAGINA INICAL*/
+
+.TopImg {
+	width: 100%;
+	height: 300px;
+
+}
+
 
 /* Barra Lateral */
 .Sidebar {
@@ -44,21 +52,31 @@ img {
 }
 
 .ListaMeta h3 {
-	font-size: 10px;
+	font-size: 15px;
 	line-height: 0px;
 	margin: -4.5% 7%;
+
 }
 
 .ListaMeta li {
-	margin: 0% 2%;
+	padding: 2px 2px;
 }
 
+.ListaMeta h1{
+	padding: 2px;
+	font-size: 30px;
+	text-align: center;
+
+
+}
 .ListaMeta {
 	width: 100%;
-	height: 18em;
+	height: 20em;
 	font-size: 2em;
 	background-color: white;
 	border-radius: 5px;
+	margin: 2px -16px;
+	box-shadow: 7px 7px 5px #888888;
 }
 
 .Content {
@@ -75,6 +93,7 @@ img {
 	float: left;
 	margin: 16px 16px;
 	line-height: 2.5em;
+	box-shadow: 7px 7px 5px #888888;
 }
 
 .conteudo {
@@ -129,12 +148,35 @@ img {
 	float: right;
 }
 
+
+/*Rodapé*/
+
 .Footer {
 	width: 101.3%;
-	height: 25%;
+	height: 30%;
 	margin: -8px;
 	background-color: grey;
 	float: left;
+}
+
+.Team {
+	width: 30%;
+	height: 150px;
+	margin: 15px 500px;
+
+}
+.Team h1{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.Team p{
+	text-align: center;
+	font-size: 18px;
+	line-height: 10px;
+	color: white;
+
 }
 
 /* Classes de estrategias.html */
@@ -211,7 +253,7 @@ img {
 	height: 4em;
 	margin: 2em 32em;
 	background-color: gray;
-	box-shadow: 3px 3px 5px #888888;
+	box-shadow: 7px 7px 5px #888888;
 	border-radius: 12px;
 }
 
@@ -228,7 +270,7 @@ img {
 	height: 15em;
 	margin: 5em 5em;
 	background-color: #A9A9A9;
-	box-shadow: 3px 3px 5px #888888;
+	box-shadow: 7px 7px 5px #888888;
 	border-radius: 12px;
 }
 
@@ -355,7 +397,37 @@ img {
 	background-color: #BC5A84;
 }
 
+/*Conteudo da Materia*/
 
+.mainimg   {
+	width:729px;
+	height:200px;
+	margin: 0px 14px;
+
+}
+
+.matter {
+	width:75%;
+	height:1050px;
+	margin: 16px 60px;
+	box-shadow: 7px 7px 5px #888888;
+
+}
+
+
+.matter h1  {
+	text-align: center;
+   	font-style: Arial;
+	font-size: 30px;
+}
+
+.matter p   {
+	line-height: 20px;
+	text-align: justify;
+	padding: 2%;
+	font-size: 15px;
+	
+}
 
 
 
